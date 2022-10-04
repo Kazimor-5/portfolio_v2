@@ -1,0 +1,34 @@
+.section__aboutContainer {
+  width: 90%;
+}
+.article__about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  row-gap: 1rem;
+}
+.article__about h1 {
+  font-weight: 600;
+  font-size: clamp(30px, 3vw, 4rem);
+  position: relative;
+}
+.article__about h1::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-600);
+}
+.article__about p {
+  font-size: clamp(1.6rem, 3vw, 2.5rem);
+}
+.about__imgContainer,
+.about__imgContainer img {
+  max-width: 50rem;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: var(--shadow-3);
+}

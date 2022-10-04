@@ -45,6 +45,8 @@
     "prefer-template": "error",
     "symbol-description": "error",
     "no-duplicate-imports": "error",
-    "no-unreachable-loop": "error"
+    "no-unreachable-loop": "error",
+    "no-unused-vars": "warn",
+    "no-undef": "error"
   }
 }
