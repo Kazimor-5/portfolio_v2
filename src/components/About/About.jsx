@@ -13,10 +13,12 @@ const About = () => {
       element,
       {
         opacity: 0,
+        visibility: 'hidden',
         y: -200,
       },
       {
         opacity: 1,
+        visibility: 'visible',
         y: 0,
         delay: delay || 0.4,
         duration: duration || 0.6,
@@ -36,7 +38,6 @@ const About = () => {
   return (
     <section className={styles.section__aboutContainer}>
       <article className={styles.article__about}>
-        <h1>à propos</h1>
         <div className={styles.about__imgContainer} id='imgContainer'>
           <img
             src='./photo.jpg'
@@ -44,7 +45,7 @@ const About = () => {
             className='img'
           />
         </div>
-        <p>Développeur Front, JavaScript spécialisé React.</p>
+        <h1>Développeur Front, JavaScript spécialisé React.</h1>
       </article>
     </section>
   );

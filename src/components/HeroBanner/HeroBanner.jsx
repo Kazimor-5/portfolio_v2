@@ -1,3 +1,5 @@
+// ! COMPONENTS
+import SocialLinks from '../SocialLinks/SocialLinks';
 // ! FILES
 import React from 'react';
 import styles from './HeroBanner.module.css';
@@ -68,6 +70,7 @@ const HeroBanner = () => {
           options={{ autoStart: true, loop: true }}
         />
       </article>
+      <SocialLinks />
     </section>
   );
 };

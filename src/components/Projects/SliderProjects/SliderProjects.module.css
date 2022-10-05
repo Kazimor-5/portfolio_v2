@@ -1,0 +1,14 @@
+.section__sliderProjects {
+  width: 90%;
+  height: 100vh;
+  margin-top: 10rem;
+  max-width: var(--max-width);
+}
+.article__sliderProjects {
+  height: 100%;
+  max-width: 80rem;
+  width: 80vw;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
