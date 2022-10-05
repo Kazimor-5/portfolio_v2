@@ -10,8 +10,13 @@
 .article__typewriter {
   width: 90%;
   align-self: flex-start;
+  justify-self: center;
   font-size: clamp(30px, 3vw, 5rem);
   color: #f1f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1.5rem;
 }
 .article__svgContainer {
   width: 100%;

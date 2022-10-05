@@ -1,0 +1,26 @@
+.section__competenceContainer {
+  width: 90%;
+  margin-top: 6rem;
+}
+.article__competence {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.article__competence h2 {
+  font-weight: 600;
+  position: relative;
+}
+.article__competence h2::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-600);
+  bottom: -5px;
+  left: 0;
+}
+.article__competence p {
+  font-size: clamp(1.6rem, 3vw, 2.5rem);
+}
