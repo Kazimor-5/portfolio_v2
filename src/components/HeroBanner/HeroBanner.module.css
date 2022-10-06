@@ -6,6 +6,7 @@
   grid-template-rows: repeat(auto-fit, minmax(35rem, 1fr));
   align-items: center;
   justify-items: center;
+  padding-bottom: 1.6rem;
 }
 .article__typewriter {
   width: 90%;

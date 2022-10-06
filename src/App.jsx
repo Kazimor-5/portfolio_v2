@@ -1,7 +1,7 @@
 // ! COMPONENTS
 import HeroBanner from './components/HeroBanner/HeroBanner';
 import About from './components/About/About';
-import SliderProjects from './components/Projects/SliderProjects/SliderProjects';
+import Projects from './components/Projects/Projects';
 // ! FILES
 import React from 'react';
 
@@ -11,7 +11,7 @@ const App = () => {
       <main className='main__container'>
         <HeroBanner />
         <About />
-        <SliderProjects />
+        <Projects />
       </main>
     </>
   );
