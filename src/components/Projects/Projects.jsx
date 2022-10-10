@@ -40,7 +40,9 @@ const Projects = () => {
         const { id, name, text, img, link, gitlink } = project;
         return (
           <article key={id} className={`${styles.article__project} project`}>
-            <h3>{name}</h3>
+            <div className={styles.project__titleContainer}>
+              <h3>{name}</h3>
+            </div>
             <div className={styles.project__imgContainer}>
               <img src={img} alt={name} className='img' />
             </div>

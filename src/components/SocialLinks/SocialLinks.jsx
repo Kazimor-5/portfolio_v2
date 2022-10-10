@@ -55,7 +55,11 @@ const SocialLinks = () => {
           </a>
         </li>
         <li className='links'>
-          <a href='#' download className={styles.anchor__socialLinks_btn}>
+          <a
+            href='./documents/cv_alexandre_benoît_fontaine.pdf'
+            download
+            className={styles.anchor__socialLinks_btn}
+          >
             <FaPaperclip className={styles.anchor__socialLinks_icons} />
             <span className={styles.anchor__socialLinks_span}>CV</span>
           </a>

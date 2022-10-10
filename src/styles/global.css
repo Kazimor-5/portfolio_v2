@@ -12,33 +12,33 @@ html {
 :root {
   /* ! COLORS */
   /* ? PRIMARY  */
-  --primary-100: #ccf7ff;
-  --primary-200: #99efff;
-  --primary-300: #66e8ff;
-  --primary-400: #33e0ff;
-  --primary-500: #00d8ff;
-  --primary-600: #00adcc;
-  --primary-700: #008299;
-  --primary-800: #005666;
-  --primary-900: #002b33;
+  --primary-100: hsl(189, 100%, 90%);
+  --primary-200: hsl(189, 100%, 80%);
+  --primary-300: hsl(189, 100%, 70%);
+  --primary-400: hsl(189, 100%, 60%);
+  --primary-500: hsl(189, 100%, 50%);
+  --primary-600: hsl(189, 100%, 40%);
+  --primary-700: hsl(189, 100%, 30%);
+  --primary-800: hsl(189, 100%, 20%);
+  --primary-900: hsl(189, 100%, 10%);
   /* ? GREY */
-  --grey-50: #f9fafb;
-  --grey-100: #f3f4f6;
-  --grey-200: #e5e7eb;
-  --grey-300: #d1d5db;
-  --grey-400: #9ca3af;
-  --grey-500: #6b7280;
-  --grey-600: #4b5563;
-  --grey-700: #374151;
-  --grey-800: #1f2937;
-  --grey-900: #111827;
+  --grey-50: hsl(210, 20%, 98%);
+  --grey-100: hsl(220, 14%, 96%);
+  --grey-200: hsl(220, 13%, 91%);
+  --grey-300: hsl(216, 12%, 84%);
+  --grey-400: hsl(218, 11%, 65%);
+  --grey-500: hsl(220, 9%, 46%);
+  --grey-600: hsl(215, 14%, 34%);
+  --grey-700: hsl(217, 19%, 27%);
+  --grey-800: hsl(215, 28%, 17%);
+  --grey-900: hsl(221, 39%, 11%);
   /* ? REST OF THE COLORS */
-  --black: #222;
-  --white: #fff;
-  --red-light: #f8d7da;
-  --red-dark: #842029;
-  --green-light: #d1e7dd;
-  --green-dark: #0f5132;
+  --black: hsl(0, 0%, 13%);
+  --white: hsl(0, 0%, 100%);
+  --red-light: hsl(355, 70%, 91%);
+  --red-dark: hsl(355, 61%, 32%);
+  --green-light: hsl(153, 31%, 86%);
+  --green-dark: hsl(152, 69%, 19%);
   /* ? FONTS */
   --headingFont: 'Josefin Sans', sans-serif;
   --bodyFont: 'Josefin Sans', sans-serif;
