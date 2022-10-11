@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
 /* ! ========================ROOTING======================= */
 html {
   font-size: 62.5%; /*10px*/
@@ -35,22 +36,18 @@ html {
   /* ? REST OF THE COLORS */
   --black: hsl(0, 0%, 13%);
   --white: hsl(0, 0%, 100%);
-  --red-light: hsl(355, 70%, 91%);
-  --red-dark: hsl(355, 61%, 32%);
-  --green-light: hsl(153, 31%, 86%);
-  --green-dark: hsl(152, 69%, 19%);
   /* ? FONTS */
-  --headingFont: 'Josefin Sans', sans-serif;
-  --bodyFont: 'Josefin Sans', sans-serif;
+  --headingFont: 'Montserrat', sans-serif;
+  --bodyFont: 'Hind', sans-serif;
   --small-text: 0.7em;
   /* ? REST OF THE VARIABLES */
   --bg-color: var(--grey-50);
   --textColor: var(--grey-900);
   --border-radius: 0.5rem;
-  --letter-spacing: 1px;
+  --border-radius-pills: 9999px;
+  --letter-spacing: 0.1rem;
   --transition: all 0.3s ease-in-out;
   --max-width: 1170px;
-  --fixed-width: 600px;
   /* ? BOX SHADOWS */
   --shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -72,9 +69,7 @@ p {
 }
 h1,
 h2,
-h3,
-h4,
-h5 {
+h3 {
   margin: 0;
   margin-bottom: 1.38rem;
   font-family: var(--headingFont);
@@ -90,16 +85,6 @@ h2 {
 }
 h3 {
   font-size: clamp(1.5rem, 3vw, 1.953rem);
-}
-h4 {
-  font-size: clamp(1.25rem, 3vw, 1.563rem);
-}
-h5 {
-  font-size: clamp(1.2rem, 3vw, 1.25rem);
-}
-small,
-.text_small {
-  font-size: var(--small-text);
 }
 a {
   text-decoration: none;

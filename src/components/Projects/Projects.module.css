@@ -45,8 +45,17 @@
 .article__project:hover {
   box-shadow: var(--shadow-4);
 }
+.article__project:hover .project__imgContainer img {
+  transform: scale(1.05);
+}
 .project__imgContainer {
+  height: 100%;
   width: 100%;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+.project__imgContainer img {
+  transition: var(--transition);
 }
 .project__paragraph {
   font-size: clamp(1.6rem, 3vw, 2rem);
@@ -65,11 +74,12 @@
   justify-content: center;
   min-width: 45%;
   font-size: clamp(1.6rem, 3vw, 2rem);
-  border-radius: 9999px;
+  border-radius: var(--border-radius-pills);
   background-color: var(--primary-500);
   color: var(--primary-800);
   transition: var(--transition);
   padding: 0.5rem 0.775rem;
+  letter-spacing: var(--letter-spacing);
 }
 .project__btn:hover {
   background-color: var(--primary-800);
