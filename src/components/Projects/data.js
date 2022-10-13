@@ -5,7 +5,7 @@ export const projects = [
     text: 'Todo List créée entièrement en PHP, SQL. Vous pouvez modifier, rayer, supprimer les tâches à faire.',
     gitlink: 'https://github.com/Kazimor-5/todo-app',
     link: '',
-    img: './images/todo-app.png',
+    img: './images/todo-app.webp',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const projects = [
     text: 'Lancé de dé aléatoire créé en PHP qui vous affichera les résultats obtenus par rapport au nombre de dés jetés.',
     gitlink: 'https://github.com/Kazimor-5/Dice-Game',
     link: '',
-    img: './images/dice-game.png',
+    img: './images/dice-game.webp',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const projects = [
     text: "Jeu de Shi Fu Mi créé en PHP qui vous fera jouer face à l'ordinateur. Faites votre choix et soumettez le contre l'ordinateur.",
     gitlink: 'https://github.com/Kazimor-5/Shi-Fu-Mi',
     link: '',
-    img: './images/ShiFuMi.png',
+    img: './images/ShiFuMi.webp',
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const projects = [
     text: 'Blog personnel créé sous Symfony. Vous pouvez vous créer un compte, vous connecter et ajouter des articles.',
     gitlink: 'https://github.com/Kazimor-5/blog',
     link: '',
-    img: './images/blog.png',
+    img: './images/blog.webp',
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const projects = [
     text: "Liste des personnages dans la série animée Rick et Morty faites sous Reactjs. Elle est basée sur l'API Rick et Morty.",
     gitlink: 'https://github.com/Kazimor-5/rick_and_morty',
     link: 'https://rick-and-morty-z1iy.vercel.app',
-    img: './images/rick-and-morty.png',
+    img: './images/rick-and-morty.webp',
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const projects = [
     text: 'Todo App réalisée sous Reactjs. Vous pouvez ajouter, editer et supprimer les tâches à faire.',
     gitlink: 'https://github.com/Kazimor-5/todoapp-react-project',
     link: 'https://todoapp-react-project-abf.netlify.app',
-    img: './images/todo-app-react.png',
+    img: './images/todo-app-react.webp',
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const projects = [
     text: "Panier d'achat réalisée sous Reactjs. Vous pouvez ajouter, retirer des articles ou alors les supprimer.",
     gitlink: 'https://github.com/Kazimor-5/cart-project-redux',
     link: 'https://cart-project-react-redux.netlify.app',
-    img: './images/cart-project.png',
+    img: './images/cart-project.webp',
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const projects = [
     text: 'Pokedex réalisé sous Reactjs. Le traitement des données a été fait grâce à axios. Elle répertorie tout les pokémons existant à ce jours et intègre un sytème de scroll infini.',
     gitlink: 'https://github.com/Kazimor-5/pokedex-project',
     link: 'https://pokedex-api-infinite-scrolling.netlify.app',
-    img: './images/pokedex.png',
+    img: './images/pokedex.webp',
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const projects = [
     text: 'Lecteur de musique créé avec Nextjs. Le projet a été conçu avec TypeScript.',
     gitlink: 'https://github.com/Kazimor-5/music_reader',
     link: 'https://music-reader.vercel.app',
-    img: './images/music_reader.png',
+    img: './images/music_reader.webp',
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const projects = [
     text: "Bot Discord créé en JavaScript avec le framework discord-js-commando. Ce projet utilise l'API de Discord.",
     gitlink: 'https://github.com/Kazimor-5/bot_discord_js',
     link: '',
-    img: './images/discord.png',
+    img: './images/discord.webp',
   },
   {
     id: 11,
@@ -85,6 +85,6 @@ export const projects = [
     text: 'Onglets avec accessibilité créés en HTML/CSS et JavaScript Vanilla.',
     gitlink: 'https://github.com/Kazimor-5/tabs_with_accessibility',
     link: 'https://kazimor-5.github.io/tabs_with_accessibility/',
-    img: './images/tabs_with_accessibility.png',
+    img: './images/tabs_with_accessibility.webp',
   },
 ];
