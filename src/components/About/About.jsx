@@ -1,5 +1,5 @@
 // ! FILES
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import styles from './About.module.css';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';

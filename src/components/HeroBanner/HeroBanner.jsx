@@ -1,7 +1,6 @@
 // ! COMPONENTS
 import SocialLinks from '../SocialLinks/SocialLinks';
 // ! FILES
-import React from 'react';
 import styles from './HeroBanner.module.css';
 import Typewriter from 'typewriter-effect';
 

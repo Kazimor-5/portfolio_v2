@@ -1,5 +1,5 @@
 // ! FILES
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import styles from './Projects.module.css';
 import { projects } from './data';
 import { gsap } from 'gsap';

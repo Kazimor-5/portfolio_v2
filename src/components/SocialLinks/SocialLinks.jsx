@@ -1,5 +1,5 @@
 // ! FILES
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import styles from './SocialLinks.module.css';
 import { FaGithub, FaLinkedin, FaPaperclip } from 'react-icons/fa';
 import { gsap } from 'gsap';
