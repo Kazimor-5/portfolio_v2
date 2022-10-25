@@ -1,10 +1,10 @@
 // ! FILES
-import { useEffect, useRef } from 'react';
-import styles from './Projects.module.css';
-import { projects } from './data';
 import { gsap } from 'gsap';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useEffect, useRef } from 'react';
+import { projects } from './data';
+import styles from './Projects.module.css';
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 

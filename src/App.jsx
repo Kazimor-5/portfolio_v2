@@ -1,6 +1,6 @@
 // ! COMPONENTS
-import HeroBanner from './components/HeroBanner/HeroBanner';
 import About from './components/About/About';
+import HeroBanner from './components/HeroBanner/HeroBanner';
 import Projects from './components/Projects/Projects';
 
 const App = () => {

@@ -1,8 +1,8 @@
 // ! COMPONENTS
 import SocialLinks from '../SocialLinks/SocialLinks';
 // ! FILES
-import styles from './HeroBanner.module.css';
 import Typewriter from 'typewriter-effect';
+import styles from './HeroBanner.module.css';
 
 const HeroBanner = () => {
   return (

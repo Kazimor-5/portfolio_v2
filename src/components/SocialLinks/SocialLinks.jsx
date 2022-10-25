@@ -1,10 +1,10 @@
 // ! FILES
-import { useEffect, useRef } from 'react';
-import styles from './SocialLinks.module.css';
-import { FaGithub, FaLinkedin, FaPaperclip } from 'react-icons/fa';
 import { gsap } from 'gsap';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useEffect, useRef } from 'react';
+import { FaGithub, FaLinkedin, FaPaperclip } from 'react-icons/fa';
+import styles from './SocialLinks.module.css';
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
